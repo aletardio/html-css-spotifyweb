@@ -26,21 +26,21 @@ body {
 
 #sidebar {
     width: 200px;
-    background-color: blue;
+    background-color: #000000;
 }
 
 #content {
     width: calc(100vw - 200px);
-    background-color: red;
+    background-color: #151921;
     overflow-y: auto;
 }
 
 .main-content {
-    margin-top: 75px;
+    max-height: calc(100vh - 150px);
+    overflow: auto;
 }
 
 header {
-    position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     height: 75px;
@@ -56,6 +56,12 @@ header {
     padding: 12px 30px;
     text-align: end;
     border-radius: 50px;
+    margin-right: 30px;
+}
+
+#btn-upgrade:hover {
+    background-color: #fff;
+    color: black;
 }
 
 .container {
@@ -78,21 +84,52 @@ header {
     width: 75%;
     padding-top: 20px;
     padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .icon {
     width: 15%;
-    padding-top: 20px;
-    padding-left: 15px;
-    vertical-align: sub;
+    margin-left: 15px;
+    margin-right: 5px;
 }
 
 #txt-icon {
-    vertical-align: middle;
-    color: #fff;
     font-size: 13px;
-
+    display: flex;
+    align-items: center;
 }
+
+.white-on {
+    color: #ffffff;
+}
+
+.white-off {
+    color: #ffffff44;
+}
+
+.list-flex {
+    opacity: 0.5;
+    color: #fff;
+    display: flex;
+    padding-top: 5px;
+    
+}
+
+.list-flex:hover {
+    opacity: 1;
+    border-left: 3px solid #ADFF2E;
+    font-weight: 800;
+}
+
+.title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+
 
 
 
