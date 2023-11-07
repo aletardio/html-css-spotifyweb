@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
 #top {
     height: calc(100vh - 75px);
     background-color: blue;
@@ -40,6 +44,18 @@ header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     height: 75px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#btn-upgrade {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    padding: 12px 30px;
+    text-align: end;
+    border-radius: 50px;
 }
 
 .container {
@@ -57,4 +73,26 @@ header {
     background-color: yellow;
     height: 100px;
 }
+
+.logo {
+    width: 75%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.icon {
+    width: 15%;
+    padding-top: 20px;
+    padding-left: 15px;
+    vertical-align: sub;
+}
+
+#txt-icon {
+    vertical-align: middle;
+    color: #fff;
+    font-size: 13px;
+
+}
+
+
 
