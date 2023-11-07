@@ -112,12 +112,24 @@ header {
     color: #fff;
     display: flex;
     padding-top: 5px;
-    
 }
+
 
 .list-flex:hover {
     opacity: 1;
     border-left: 3px solid #ADFF2E;
+    font-weight: 800;
+}
+
+.playlist {
+    opacity: 0.5;
+    color: #fff;
+    display: flex;
+    padding-top: 5px;
+}
+
+.playlist:hover {
+    opacity: 1;
     font-weight: 800;
 }
 
@@ -129,7 +141,27 @@ header {
     margin-top: 25px;
 }
 
+.margin-top-playlist {
+    margin-top: 30px;
+}
 
+.margin-txt-playlist {
+    margin-top: 22px;
+    margin-left: 2px;
+}
+
+.txt-name-playlist {
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 25px;
+    opacity: 0.5;
+}
+
+.txt-name-playlist:hover {
+    opacity: 1;
+    font-weight: 800;
+}
 
 
 
