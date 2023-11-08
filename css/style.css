@@ -16,6 +16,8 @@ body {
 #bottom {
     height: 75px;
     background-color: lightcoral;
+    position: fixed;
+    width: 100%;
 }
 
 .top-content {
