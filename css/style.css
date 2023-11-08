@@ -255,6 +255,10 @@ header {
     font-weight: 800;
 }
 
+.album {
+    position: relative;
+}
+
 .album img {
      width: 100%;
      height: 100%;
@@ -269,15 +273,19 @@ header {
     display: none;
     top: 0;
     left: 0;
-    color: white;
 }
 
 .album:hover .overlay {
     display: block;
 }
 
-.fa-play {
-    color: #fff;
+.icon-play {
+    filter: invert(1);
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .title-music {
@@ -295,6 +303,14 @@ header {
     font-weight: 800;
     text-align: center;
     margin: 10px;
+}
+
+#txt-grey-main-content {
+    opacity: 0.5;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 15px 0;
 }
 
 
