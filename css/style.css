@@ -99,6 +99,11 @@ header {
     height: 100px;
 }
 
+.col-100 {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
 .logo {
     width: 75%;
     padding-top: 20px;
@@ -218,6 +223,28 @@ header {
     border-radius: 50%;
     background-color: grey;
 }
+
+#main-txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-list-txt {
+    font-size: 13px;
+    opacity: 0.5;
+    color: #fff;
+    display: flex;
+    padding-top: 5px;
+    margin: 0 10px;
+}
+
+#main-list-txt:hover {
+    opacity: 1;
+    border-bottom: 2px solid #ADFF2E;
+}
+
 
 
 
