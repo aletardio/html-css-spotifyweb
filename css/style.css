@@ -41,7 +41,6 @@ body {
 }
 
 .top-sidebar {
-    height: 300px;
     width: 100%;
     background-color: #000000;
 }
@@ -95,13 +94,17 @@ header {
 .col {
     width: calc(100% / 4 - 20px);
     margin: 10px;
-    background-color: yellow;
-    height: 100px;
+}
+
+.col-4 {
+    width: calc(100% / 2.9);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col-100 {
-    width: calc(100% - 40px);
-    margin: 20px;
+    width: calc(100% - 20px);
+    margin: 10px;
 }
 
 .logo {
@@ -207,6 +210,7 @@ header {
 .playlist-list {
     height: 30vh;
     overflow-y: auto;
+    margin-top: 10px;
 }
 
 .bottom-border {
@@ -243,6 +247,53 @@ header {
 #main-list-txt:hover {
     opacity: 1;
     border-bottom: 2px solid #ADFF2E;
+}
+
+.title-main-content {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.album img {
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+
+/* .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    top: 0;
+    left: 0;
+} */
+
+.album:hover .overlay {
+    display: block;
+}
+
+.fa-play {
+    color: #fff;
+}
+
+.title-music {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+}
+
+.title-musician {
+    opacity: 0.5;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
 }
 
 
