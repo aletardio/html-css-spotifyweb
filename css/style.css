@@ -68,6 +68,7 @@ header {
 }
 
 #btn-upgrade {
+    font-size: 15px;
     background-color: transparent;
     border: 1px solid #fff;
     color: white;
@@ -103,6 +104,10 @@ header {
     padding-top: 20px;
     padding-left: 15px;
     padding-bottom: 20px;
+}
+
+.logo-small {
+    display: none;
 }
 
 .icon {
@@ -213,6 +218,79 @@ header {
     border-radius: 50%;
     background-color: grey;
 }
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    #btn-upgrade {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+
+    #sidebar {
+        width: 60px;
+    }
+
+   #content {
+        width: calc(100vw - 60px);
+   }
+
+   .logo {
+    display: none;
+   }
+
+   .logo-small {
+    width: 50%;
+    display: block;
+    margin: 10px 15px;
+   }
+
+   .list-flex {
+    visibility: hidden;
+    opacity: 1;
+   }
+
+   .icon {
+    visibility: visible;
+    width: 50%;
+   }
+
+   .title, .playlist, .playlist-list, .fa-plus, .bottom-border, .account {
+    visibility: hidden;
+    opacity: 1;
+   }
+
+   .little-icon {
+    visibility: visible;
+    width: 30%;
+    margin: 0 20px;
+   }
+
+   .user {
+    visibility: visible;
+    width: 35%;
+    height: 35%;
+    margin-left: 20px;
+   }
+
+   .account {
+    padding-top: 0;
+    margin-top: 0;
+   }
+}
+
+
+
 
 
 
