@@ -49,7 +49,8 @@ body {
 .bottom-sidebar {
     height: 75px;
     width: 100%;
-    background-color: pink;
+    background-color: #000000;
+    margin-bottom: 15px;
 }
 
 .main-content {
@@ -110,6 +111,12 @@ header {
     margin-right: 5px;
 }
 
+.little-icon {
+    width: 10%;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
 #txt-icon {
     font-size: 13px;
     display: flex;
@@ -150,6 +157,13 @@ header {
     font-weight: 800;
 }
 
+.account {
+    color: #fff;
+    display: flex;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
 .title {
     color: #fff;
     font-size: 14px;
@@ -184,6 +198,23 @@ header {
     height: 30vh;
     overflow-y: auto;
 }
+
+.bottom-border {
+    border-bottom: 1px solid grey;
+    margin: 0 15px;
+    padding-bottom: 10px;
+}
+
+.user {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+
 
 
 
