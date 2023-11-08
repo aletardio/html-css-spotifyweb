@@ -276,16 +276,15 @@ header {
 }
 
 .album:hover .overlay {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-play {
     filter: invert(1);
     width: 30%;
     height: 30%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .title-music {
