@@ -324,6 +324,11 @@ header {
     align-items: center;
 }
 
+
+.flex-right {
+    justify-content: end;
+}
+
 .album-icon {
     width: 10%;
     margin-left: 15px;
@@ -466,6 +471,49 @@ i#music-player-icon:hover {
 .player-bar:hover .controller-elapsed-point {
     display: block;
 }
+
+.fa-list-ul, .fa-folder, .fa-volume-high {
+    margin: 0 5px;
+}
+
+.volume-bar {
+    height: 4px;
+    width: 25%;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.elapsed-volume {
+    width: 35%;
+    height: 4px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    position: relative;
+}
+
+.controller-elapsed-point-volume {
+    width: 15px;
+    height: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.volume-bar:hover .controller-elapsed-point-volume {
+    display: block;
+}
+
+.volume-bar:hover .elapsed-volume {
+    background-color: #ADFF2E;
+}
+
 
 
 
