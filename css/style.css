@@ -15,9 +15,11 @@ body {
 
 #bottom {
     height: 75px;
-    background-color: lightcoral;
+    background-color: #282828;
     position: fixed;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .top-content {
@@ -312,6 +314,46 @@ header {
     margin: 15px 0;
 }
 
+#circle {
+    border-radius: 50%;
+}
+
+.col-20 {
+    width: calc(20% - 20px);
+    margin: 10px;
+    border: 1px dashed black;
+    height: 60px;
+}
+
+.col-60 {
+    width: calc(60% - 20px);
+    margin: 10px;
+    border: 1px solid black;
+    height: 60px;
+}
+
+#d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.album-icon {
+    width: 15%;
+}
+
+.txt-song {
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+#border-radius-50 {
+    border-radius: 50%;
+}
+
+
+
 
 
 
@@ -322,10 +364,22 @@ header {
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-    
+
+    .col {
+        width: calc(100% / 4 - 20px);
+    }
+
+    #main-text {
+        flex-wrap: wrap;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
+
+    .col {
+        width: calc(100% / 2 - 20px);
+    }
+
     #btn-upgrade {
         margin-right: 10px;
         font-size: 10px;
