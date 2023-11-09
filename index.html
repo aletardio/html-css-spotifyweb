@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Spotify</title>
 </head>
 <body>
@@ -311,21 +312,34 @@
             </div>
         </div>
     </div>
-    <div id="bottom">
-        <div id="d-flex" class="col-20">
-          <img class="album-icon" src="./img/sinister.jpeg" alt=""> 
-          <div class="txt-song">
-            Sinister
-          </div> 
-          <div class="txt-song">
-            Sinister
-          </div>
-        </div>
-        <div class="col-60">
 
+    <div id="bottom">
+        <div id="d-flex" class="left">
+            <img class="album-icon" src="./img/sinister.jpeg" alt=""> 
+            <ul class="title-player">
+                <li class="txt-singer">Sinister</li>
+                <li class="song">Brano Nome</li>
+            </ul>
+            <div>
+                <ul id="player-icons">
+                    <li class="icon-player"><i class="fa-regular fa-heart fa-lg"></i></li>
+                    <li class="icon-player"><i class="fa-regular fa-folder fa-lg"></i></li>
+                </ul>
+            </div>
         </div>
-        <div class="col-20">
-            
+        <div class="center">
+            <div class="controller-time">
+                <div class="controller-time-min">0:25</div>
+                <div class="player-bar">
+                    <div class="elapsed-time">
+                        <div class="controller-elapsed-point"></div>
+                    </div>
+                </div>
+                <div class="controller-time-max">4:35</div>
+            </div>
+        </div>
+        <div class="right">
+
         </div>
     </div>
 </body>
