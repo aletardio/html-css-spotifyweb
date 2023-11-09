@@ -375,12 +375,21 @@ header {
     font-weight: 800;
 }
 
-#player-icons {
+#player-icons-left {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     margin-left: 30px;
 }
+
+#player-icons-right {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+
 
 .icon-player {
     margin-left: 15px;
@@ -409,6 +418,7 @@ header {
 }
 
 #music-player-icon {
+    height: 25px;
     margin: 0 15px;
 }
 
@@ -426,6 +436,7 @@ i#music-player-icon:hover {
 .controller-time-min, .controller-time-max {
     font-size: 12px;
     color: #fff;
+    padding: 0 5px;
 }
 
 .controller-time {
@@ -472,7 +483,7 @@ i#music-player-icon:hover {
     display: block;
 }
 
-.fa-list-ul, .fa-folder, .fa-volume-high {
+.fa-list-ul, .fa-desktop, .fa-volume-high {
     margin: 0 5px;
 }
 
@@ -515,16 +526,6 @@ i#music-player-icon:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
 
@@ -535,6 +536,61 @@ i#music-player-icon:hover {
     #main-text {
         flex-wrap: wrap;
     }
+
+    #main-list-txt {
+        font-size: 11px;
+    }
+
+    .title-music {
+        font-size: 12px;
+    }
+
+    .title-musician {
+        font-size: 10px;
+    }
+
+    #player-icons-left {
+        flex-direction: column;
+    }
+
+    .txt-singer {
+        font-size: 10px;
+    }
+
+    .song {
+        font-size: 7px;
+    }
+
+    .fa-lg {
+        font-size: 1em;
+    }
+
+    #player-icons-left {
+        margin-left: 25px;
+    }
+
+    #player-icons-right {
+        margin-left: 0;
+    }
+
+    .fa-list-ul, .fa-desktop, .fa-volume-high {
+        margin: 0;
+    }
+
+    .controller-time-min, .controller-time-max {
+        font-size: 9px;
+    }
+
+    .player-bar {
+        width: 70%;
+    }
+
+    #music-player-icon {
+        height: 22px;
+        margin: 0 12px;
+    }
+
+
 }
 
 @media screen and (max-width: 580px) {
@@ -557,47 +613,85 @@ i#music-player-icon:hover {
    }
 
    .logo {
-    display: none;
+        display: none;
    }
 
    .logo-small {
-    width: 50%;
-    display: block;
-    margin: 10px 15px;
+        width: 50%;
+        display: block;
+        margin: 10px 15px;
    }
 
    .list-flex {
-    visibility: hidden;
-    opacity: 1;
+        visibility: hidden;
+        opacity: 1;
    }
 
    .icon {
-    visibility: visible;
-    width: 50%;
+        visibility: visible;
+        width: 50%;
    }
 
    .title, .playlist, .playlist-list, .fa-plus, .bottom-border, .account {
-    visibility: hidden;
-    opacity: 1;
+        visibility: hidden;
+        opacity: 1;
    }
 
    .little-icon {
-    visibility: visible;
-    width: 30%;
-    margin: 0 20px;
+        visibility: visible;
+        width: 30%;
+        margin: 0 20px;
    }
 
    .user {
-    visibility: visible;
-    width: 35%;
-    height: 35%;
-    margin-left: 20px;
+        visibility: visible;
+        width: 35%;
+        height: 35%;
+        margin-left: 20px;
    }
 
    .account {
-    padding-top: 0;
-    margin-top: 0;
+        padding-top: 0;
+        margin-top: 0;
    }
+
+   .txt-singer {
+        font-size: 10px;
+    }
+
+   .song {
+        font-size: 7px;
+   }
+
+   .fa-lg {
+        font-size: 1em;
+   }
+
+   #player-icons-left {
+        margin-left: 10px;
+    }
+
+    #player-icons-right {
+        margin-left: 0;
+    }
+
+    .fa-list-ul, .fa-desktop, .fa-volume-high {
+        margin: 0;
+    }
+
+    .controller-time {
+        justify-content: center;
+    }
+
+    .controller-time-min, .controller-time-max {
+        font-size: 9px;
+        padding: 0 5px;
+    }
+
+    #music-player-icon {
+        height: 22px;
+        margin: 0 8px;
+    }
 }
 
 
