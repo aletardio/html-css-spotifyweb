@@ -345,6 +345,16 @@ header {
     list-style-type: none;
 }
 
+.txt-singer:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.song:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .txt-singer {
     margin-left: 5px;
     color: #fff;
@@ -386,7 +396,11 @@ header {
 .center {
     width: 50%;
     height: 50px;
-    background-color: yellow;
+}
+
+.controller-time-min, .controller-time-max {
+    font-size: 12px;
+    color: #fff;
 }
 
 .controller-time {
@@ -398,7 +412,7 @@ header {
 
 .player-bar {
     height: 4px;
-    width: 80%;
+    width: 90%;
     background-color: grey;
     border-radius: 5px;
     cursor: pointer;
